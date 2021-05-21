@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Mar 14 11:07:05 2021
+# Process ID: 11052
+# Current directory: E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4216 E:\class\Master of ANU\6213_Digital Systems and Microprocessors\my_6213\lab2\overflow_counter\overflow_counter.xpr
+# Log file: E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/vivado.log
+# Journal file: E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/overflow_counter.xpr}
+update_compile_order -fileset sources_1

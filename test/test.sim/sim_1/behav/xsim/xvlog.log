@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/sources_1/new/overflowCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module overflowCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_clock_divider/TEST_overflowClockDivider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TEST_overflowClockDivider
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

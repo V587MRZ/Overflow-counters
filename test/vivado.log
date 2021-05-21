@@ -1,0 +1,291 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Mar 14 12:59:28 2021
+# Process ID: 13528
+# Current directory: E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8748 E:\class\Master of ANU\6213_Digital Systems and Microprocessors\my_6213\lab2\overflow_counter\test\test.xpr
+# Log file: E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/vivado.log
+# Journal file: E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test'
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:06 . Memory (MB): peak = 1017.184 ; gain = 0.000
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: overflowCounter
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1324.414 ; gain = 242.801
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'overflowCounter' [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/sources_1/new/overflowCounter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'overflowCounter' (1#1) [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/sources_1/new/overflowCounter.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1375.324 ; gain = 293.711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1379.656 ; gain = 298.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1379.656 ; gain = 298.043
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1379.656 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc]
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[8]'. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[9]'. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[10]'. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[11]'. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[12]'. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[13]'. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[14]'. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[15]'. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led'. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/constrs_1/new/overflowCounter_constraints_Basys3.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1477.078 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:21 ; elapsed = 00:00:12 . Memory (MB): peak = 1611.707 ; gain = 530.094
+5 Infos, 17 Warnings, 17 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:19 . Memory (MB): peak = 1611.707 ; gain = 594.523
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {{E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_clock_divider/TEST_overflowClockDivider.v}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TEST_overflowClockDivider' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TEST_overflowClockDivider_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.srcs/sources_1/new/overflowCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module overflowCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_clock_divider/TEST_overflowClockDivider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TEST_overflowClockDivider
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.sim/sim_1/behav/xsim'
+"xelab -wto 18ffe453d4d54d0aad4dd5cdff4bc4b8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TEST_overflowClockDivider_behav xil_defaultlib.TEST_overflowClockDivider xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 18ffe453d4d54d0aad4dd5cdff4bc4b8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TEST_overflowClockDivider_behav xil_defaultlib.TEST_overflowClockDivider xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resollaunch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_clock_divider/overflow_clock_divider.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TEST_overflowClockDivider' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_clock_divider/overflow_clock_divider.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TEST_overflowClockDivider_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_clock_divider/TEST_overflowClockDivider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TEST_overflowClockDivider
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_clock_divider/overflow_clock_divider.sim/sim_1/behav/xsim'
+"xelab -wto 0aa66496a3464afdbbc3b9e28cc85783 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TEST_overflowClockDivider_behav xil_defaultlib.TEST_overflowClockDivider xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 0aa66496a3464afdbbc3b9e28cc85783 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TEST_overflowClockDivider_behav xil_defaultlib.TEST_overflowClockDivider xil_defaultlib.greset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Mar 14 13:32:18 2021] Launched synth_1...
+Run output will be captured here: E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.runs/synth_1/runme.log
+[Sun Mar 14 13:32:18 2021] Launched impl_1...
+Run output will be captured here: E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/test/test.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 04 2020-05:close_project
+open_project {E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/arbitrary_clock_divider/arbitrary_clock_divider.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/arbitrary_clock_divider'
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/arbitrary_clock_divider/arbitrary_clock_divider.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 04 2020-05:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 3971.539 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B04248A
+set_property PROGRAM.FILE {E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/arbitrary_clock_divider/arbitrary_clock_divider.runs/impl_1/ClockDividerHB.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/arbitrary_clock_divider/arbitrary_clock_divider.runs/impl_1/ClockDividerHB.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 04 2020-05:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 3971.539 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B04248A
+set_property PROGRAM.FILE {E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/arbitrary_clock_divider/arbitrary_clock_divider.runs/impl_1/ClockDividerHB.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xcopen_project {E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/overflow_counter.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter'
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_counter/overflow_counter.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+open_project {E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_clock_divider/overflow_clock_divider.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_clock_divider'
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/class/Master of ANU/6213_Digital Systems and Microprocessors/my_6213/lab2/overflow_clock_divider/overflow_clock_divider.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+close_project

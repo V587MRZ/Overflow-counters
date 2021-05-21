@@ -1,0 +1,7 @@
+Running: xsim.dir/TEST_overflowClockDivider_behav/xsimk.exe -simmode gui -wdb TEST_overflowClockDivider_behav.wdb -simrunnum 0 -socket 4632
+Design successfully loaded
+Design Loading Memory Usage: 6396 KB (Peak: 6396 KB)
+Design Loading CPU Usage: 61 ms
+Simulation completed
+Simulation Memory Usage: 6952 KB (Peak: 6952 KB)
+Simulation CPU Usage: 108 ms
